@@ -2,7 +2,7 @@
 assignment: train a binary classifier using CNN approach (transfer learning based on 'InceptionV3' model)
 
 ## Directory Structure
-there should be 6 python files and 4 sub-folders in the directory
+for the complete project, there should be 6 python files and 4 sub-folders in the directory.
 * '01_generate_tfrecords.py': this file generate '.tfrecords' file from given image data.
 * '02_transferlearning.py': this file train the model.
 * '03_transferlearning(continous training).py': this file train the model continuously from previous trained results.
