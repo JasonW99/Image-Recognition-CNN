@@ -3,16 +3,16 @@ assignment: train a binary classifier using CNN approach (transfer learning base
 
 ## Directory Structure
 there should be 6 python files and 4 sub-folders in the directory
-* 1.1. '01_generate_tfrecords.py': this file generate '.tfrecords' file from given image data.
-* 1.2. '02_transferlearning.py': this file train the model.
-* 1.3. '03_transferlearning(continous training).py': this file train the model continuously from previous trained results.
-* 1.4. '04_test_given_dataset.py': this file classify images from .tfrecords using the trained model.
-* 1.3. '05_test_folder_image.py':  this file classify images within given folder using the trained model.
-* 1.3. '06_test_single_image.py':  this file classify a single image using the trained model.
-* 1.5. 'dataset': this folder contains image data.
-* 1.6. 'tfrecords': this folder contains '.tfrecords' files, which are generated from image data.
-* 1.7. 'inception-v3': this folder contains 'InceptionV3' model.
-* 1.8. 'saved_model': this folder contains trained model.
+* '01_generate_tfrecords.py': this file generate '.tfrecords' file from given image data.
+* '02_transferlearning.py': this file train the model.
+* '03_transferlearning(continous training).py': this file train the model continuously from previous trained results.
+* '04_test_given_dataset.py': this file classify images from .tfrecords using the trained model.
+* '05_test_folder_image.py':  this file classify images within given folder using the trained model.
+* '06_test_single_image.py':  this file classify a single image using the trained model.
+* 'dataset': this folder contains image data.
+* 'tfrecords': this folder contains '.tfrecords' files, which are generated from image data.
+* 'inception-v3': this folder contains 'InceptionV3' model.
+* 'saved_model': this folder contains trained model.
 
 ## Generate tfrecords
 use '01_generate_tfrecords.py' to generate the training and test dataset.
