@@ -87,7 +87,8 @@ the dataset should be in '.tfrecords' format, and the output is like following:
 ## Test Image Folder
 use '05_test_folder_image.py' to classify images within the given folder.
 the output is like following:
-```
+```bash
+#
 # C:\***\dataset\Test\Negative\10.jpg
 # With probability 94.62% the test image belongs to group NEGATIVE
 # With probability 5.38% the test image belongs to group POSITIVE
